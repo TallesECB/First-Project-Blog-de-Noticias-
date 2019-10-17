@@ -1,0 +1,129 @@
+/* INICIO ESTRUTURANDO O SITE */
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x;
+}
+/* FIM DO ESTRUTURANDO O SITE */
+
+/* INICIO DO CABEÇALHO */
+    #container {
+    width: 1420px;
+    margin: 0 auto;
+}
+/* FIM DO CABEÇALHO */
+
+/* INICIO DA BARRA DE NAVEGAÇÃO */
+a:link, a:visited {
+	color: #b10333;
+	padding: 2px;
+	border-radius: 10px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul {
+	border-radius: 10px;
+	background-color: gray;
+	margin-top: 10px;
+	margin-left: 560px;
+	float: left;
+}
+
+#topo ul li {
+	float: left;
+}
+
+#topo ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+	background: none;
+}
+
+#topo ul a:hover {
+	color: #294c71;
+}
+
+body.home #navegacao a#home,
+body.sobre #navegacao a#sobre, 
+body.contato #navegacao a#contato
+{
+	color: black;
+	background: white;
+}
+
+
+#navegacao{
+	margin-left: 200px;
+}
+/* FIM DA BARRA DE NAVEGAÇÃO */
+
+/* INICIO DO LOGO */
+.logo {
+	margin-left: 610px;
+	margin-top: 10px;
+	width: 152px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat center;
+	text-indent: -3000px;
+}
+/* FIM DO LOGO */
+
+/* INCIO DO RODAPE */
+#container-rodape {
+	background: #294c71;
+	padding: 20px;
+}
+
+#rodape {
+	width: 1000px;
+	margin: 0 auto;
+	color: black;
+}
+
+#instagramimg{
+	width: 25px;
+	height: 20px;	
+	margin-left: 20%;
+}
+#facebookimg{
+	width: 25px;
+	height: 20px;
+	margin-left: 1%;
+	margin-right: 20%;
+}
+/* FIM DO RODAPE */
+
+/* INICIO DO FORMATANDO CABEÇALHOS*/
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+/* FIM DO FORMATANDO CABEÇALHOS */
+
+/* INICIO DO FORMATANDO TEXTOS */
+
+#texto{
+	color: blue;
+	margin: 100px;
+}
+
+/* FIM DO FORMATANDO TEXTOS */
